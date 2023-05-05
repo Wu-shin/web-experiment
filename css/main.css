@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+  font-family:Verdana;
+  background-color: #efe335;
+  color:#646464;
+  padding: 50px;
+}
+
+hr{
+    margin:0px;
+}
+
+
+/* header */
+
+header {
+    padding: 20px;
+    text-align: center;
+    font-size:50px;
+    color:#646464;
+    background-color: wheat;
+}
+/* title */
+header h1{
+    color:black;
+    font-size: 90px;
+}
+/* 超連結 */
+header div a{
+    list-style: none;
+    font-size: 30px;
+    background-color:white;
+    color: #646464;
+    border: solid #f36b72 3px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+header div a:hover{
+    background-color: #f36b72;
+    color:white;
+}
+
+
+/* article */
+
+#contem{
+    color: #646464;
+}
+
+article{
+    padding: 20px;
+    background-color: wheat;
+    font-size: 40px;
+}
+
+article h1{
+    color:black;
+    font-size:60px;
+}
+
+article a img{
+    width: 350px;
+    height: 450px;
+    border-radius: 10%;
+}
+
+
+/* button 設計 */
+article div button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 50px;
+    border: none;
+}
+
+
+
+article div button:active{
+    transform: translateY(5px);
+}
+
+.origin{
+    background-color: #646464;
+}
+
+.red{
+    float:left;
+    background-color: red;
+}
+
+.blue{
+    float: left;
+    background-color: blue;
+}
+
+.green{
+    float: left;
+    background-color: green;
+}
+
+
+/* footer */
+
+footer{
+    padding: 20px;
+    background-color: wheat;
+    font-size: 40px;
+}
+
+footer h1{
+    font-size: 60px;
+    color: black;
+}
+/* 回上方按鈕設計 */
+footer div button{
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    border: solid #f36b72 3px;
+}
+
+footer div button a{
+    color: #646464;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+footer div button:hover{
+    background-color: #f36b72;
+}
+
+footer div button:active{
+    transform: translateY(4px);
+}
+
+footer div button:hover a{
+    color: white;
+}

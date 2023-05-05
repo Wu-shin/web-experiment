@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+    <head>
+        <!-- 一些基本設定 -->
+        <meta charset="utf-8">
+        <meta name="author"content="409411351">
+        <meta name="keywords"content="蔣璿東,淡江,資工系,教授">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- title -->
+        <title>蔣璿東教授個人介紹網頁</title>
+        <!-- 連結css -->
+        <link rel="stylesheet" href = "css/main.css">
+        <!-- 導入javascript -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    </head>
+    <!-- body 背景更改 -->
+    <body background="https://png.pngtree.com/thumb_back/fh260/background/20210101/pngtree-watercolor-simple-clean-background-image_525989.jpg">
+        <!-- header -->
+        <header>
+            <!-- 標題 -->
+            <h1>
+                <b>蔣璿東 博士教授<br>
+                    個人介紹網頁</b>
+            </h1>
+            <!-- 到其他頁面的連結 -->
+            <div align="center">
+                <a href="主頁面.html" >主頁面</a>
+                <a href="期刊論文.html" >期刊論文</a>
+                <a href="研討會論文.html" >研討會論文</a>
+                <a href="專案計畫.html" >專案計畫</a>
+                <a href="研究.html" >研究</a>
+                <a href="榮譽.html" >榮譽</a>
+            </div>
+        </header>
+        <!-- article -->
+        <article id="content" >
+            <!-- 跑馬燈 -->
+            <marquee bgcolor="orange" width="100%" height="70" scrollamount="10">
+                <font color="black" size="8">歡迎來到蔣璿東教授的個人介紹網頁</font>
+            </marquee>
+            <!-- 圖片 連結至系網 -->
+            <a href="http://www.csie.tku.edu.tw/Front/Member/Fulltime/Members.aspx?id=QtntyBGmS1k=&PID=0000000064" target="_blank">
+                <img src="professor.jpg"  align = "right">
+            </a>
+            <!-- 基本資料 -->
+            <h1 >基本資料</h1>
+            <p> 名稱: 蔣璿東<br>
+                類別: 專任教師<br>
+                系所: 資訊工程系 資訊網路與通訊研究所<br>
+                實驗室：資料庫實驗室 Database Lab (E690)<br>
+                研究領域:
+            </p>
+            <!-- list -->
+            <ul type="none">
+                <li>資料探勘</li>
+                <li>機器學習</li>
+                <li>資料庫系統</li>
+                <li>時間序列分析</li>
+            </ul>
+            <!-- button 改變字的顏色 -->
+            <div>
+                <button class="red" onclick="changecolor(1)"></button>
+                <button class="blue" onclick="changecolor(2)"></button>
+                <button class="green" onclick="changecolor(3)"></button>
+                <button class="origin" onclick="changecolor(4)"></button>
+            </div>
+        </article>
+        <!-- 分隔線 -->
+        <hr color="orange" align="left" width="100%" size="30" >
+        <!-- footer -->
+        <footer>
+            <!-- 聯絡資訊 -->
+            <h1>聯絡資訊</h1>
+            <!-- 信箱連結 -->
+            <p>信箱: <a href = "mailto:081863@mail.tku.edu.tw">081863@mail.tku.edu.tw</a></p>
+            <p>辦公室: 新工學大樓6樓 (E662)</p>
+            <p>辦公室電話:02-2621-5656#3329</p>
+            <p>淡江大學 25137 新北市淡水區英專路151號</p>
+            <!-- 到頂端的按鈕 -->
+            <div align="center">
+                <button id="top"><a>至頂端</a></button>
+            </div>
+        </footer>
+        <script src="javascript/main.js"></script>
+    </body>
+</html>

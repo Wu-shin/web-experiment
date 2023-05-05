@@ -1,0 +1,101 @@
+
+*{
+    box-sizing: border-box;
+}
+
+/* 導入背景圖片 */
+body{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20210101/pngtree-watercolor-simple-clean-background-image_525989.jpg);
+    font-family:Verdana;
+    color:black;
+    padding: 50px;
+}
+/* header */
+
+header {
+    padding: 20px;
+    text-align: center;
+    font-size:50px;
+    color:#646464;
+    background-color: wheat;
+}
+
+/* title */
+header h1{
+    color:black;
+    font-size: 90px;
+}
+/* 超連結 */
+header div a{
+    list-style: none;
+    font-size: 30px;
+    background-color:white;
+    color: #646464;
+    border: solid #f36b72 3px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+header div a:hover{
+    background-color: #f36b72;
+    color:white;
+}
+
+
+/* article */
+article{
+    padding: 10px;
+    background-color: wheat;
+    font-size: 20px;
+}
+
+/* table設計 */
+article table thead tr td{
+    height: 50px;
+    padding:10px;
+    font-size: 30px;
+}
+
+
+
+article table tbody tr td{
+    width: 1000px;
+    height: 50px;
+    padding: 10px 20px 10px 20px;
+}
+
+.fcolumn{
+    width: 100px;
+}
+
+/* footer */
+footer{
+    padding: 20px;
+    background-color: wheat;
+    font-size: 40px;
+}
+/* 回上方按鈕設計 */
+footer div button{
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    border: solid #f36b72 3px;
+}
+
+footer div button a{
+    color: #646464;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+footer div button:hover{
+    background-color: #f36b72;
+}
+
+footer div button:active{
+    transform: translateY(4px);
+}
+
+footer div button:hover a{
+    color: white;
+}
+
